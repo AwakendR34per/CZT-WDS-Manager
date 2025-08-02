@@ -1,4 +1,4 @@
-# CZT-WDS Launcher
+# CZT-WDS Launcher 
 
 **CZT-WDS Launcher** is an all-in-one tool for managing Steam-based dedicated servers (ARMA, Rust, SCUM, Insurgency Sandstorm, and more) with a simple, modern interface. No command-line knowledge required!
 
@@ -126,4 +126,5 @@ If port is set to 7000, then players connect using `Your.Server.I.P:7002`.
 * **You do NOT need to enter a username/password unless your server requires it.**
 
 ---
+
 
