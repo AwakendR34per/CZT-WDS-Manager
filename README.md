@@ -60,9 +60,10 @@
 
 ### First Time Use
 
-* **\[Install Dependencies]** Installs DirectX and Visual C++ redistributables if needed.
+* **Go to the WDS Config tab**
+* **Click \[Install Dependencies]** Installs DirectX and Visual C++ redistributables if needed.
 * **Enter App ID (and save):** Click the `?` for valid App IDs.
-* **\[First Time Install]:** Installs SteamCMD and selected server files.
+* **Click \[First Time Install]:** Installs SteamCMD and selected server files.
 * Wait for everything to install (watch the log window).
 * Start your server!
 
@@ -128,6 +129,7 @@ If port is set to 7000, then players connect using `Your.Server.I.P:7002`.
 * **You do NOT need to enter a username/password unless your server requires it.**
 
 ---
+
 
 
 
