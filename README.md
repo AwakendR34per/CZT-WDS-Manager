@@ -24,6 +24,7 @@
 4. **Register or log in within the app to start managing your servers.**
 
 > CZT needs to be "Run as Administrator" due to how it Starts/Stops the server. 
+
 > No Python or additional installs required.
 
 ---
@@ -129,6 +130,7 @@ If port is set to 7000, then players connect using `Your.Server.I.P:7002`.
 * **You do NOT need to enter a username/password unless your server requires it.**
 
 ---
+
 
 
 
