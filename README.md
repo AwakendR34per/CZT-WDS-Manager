@@ -19,11 +19,11 @@
 ## How to Install
 
 1. **Download the latest release from the [Releases page](../../releases).**
-2. **Download and run `CZT-WDS_Launcher_Setup.exe`.**
+2. **Run `CZT-WDS_Launcher_Setup.exe`.**
 3. **Launch the app from your desktop or Start Menu shortcut. (Run as Admin)**
 4. **Register or log in within the app to start managing your servers.**
 
-> This app needs to be "Run as Administrator" due to how it Starts/Kills the server. 
+> CZT needs to be "Run as Administrator" due to how it Starts/Stops the server. 
 > No Python or additional installs required.
 
 ---
@@ -129,6 +129,7 @@ If port is set to 7000, then players connect using `Your.Server.I.P:7002`.
 * **You do NOT need to enter a username/password unless your server requires it.**
 
 ---
+
 
 
 
