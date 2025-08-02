@@ -1,93 +1,129 @@
-[CZT-WDS Launcher]
-- CZT-WDS Launcher is an all-in-one tool for managing Steam-based dedicated servers (ARMA, Rust, SCUM, Insurgency Sandstorm, and more) with a simple, modern interface. No command-line knowledge required!
+# CZT-WDS Launcher
 
-[Key Features]
-- Easy Server Management: Start, stop, update, and configure servers for many popular games with just a few clicks.
-- SteamCMD Integration: Built-in SteamCMD handling for seamless server downloads and updates.
-- Scheduled Restarts & Updates: Automate your server’s maintenance and downtime.
-- Crash Protection: Optional monitoring and auto-restart if your server crashes.
-- Logs & Backups: Integrated log management and optional backups on restart.
-- Account System: Supports free and premium user accounts, with extra features for premium.
-- User-Friendly UI: Modern, dark-mode interface using CustomTkinter.
+**CZT-WDS Launcher** is an all-in-one tool for managing Steam-based dedicated servers (ARMA, Rust, SCUM, Insurgency Sandstorm, and more) with a simple, modern interface. No command-line knowledge required!
 
-[How to Install]
-- Download the latest release from the Releases page.
-- Unzip and run SteamCZT_WDS_Launcher.exe.
-- Register or log in within the app to start managing your servers.
-- No Python or additional installs required.
+---
 
-[Supported Games / Engines]
-- SCUM
-- Rust
-- Insurgency Sandstorm (ISS)
-- ARMA
-- Source Engine games (CS:GO, Garry’s Mod, etc.)
-- Unreal Engine servers (ARK, Conan Exiles, etc.)
-- Unity-based servers
-More!
+## Key Features
 
-[Premium Features]
-- Scheduled restarts and updates
-- Crash protection
-- Extra automation and advanced controls
+* **Easy Server Management:** Start, stop, update, and configure servers for many popular games with just a few clicks.
+* **SteamCMD Integration:** Built-in SteamCMD handling for seamless server downloads and updates.
+* **Scheduled Restarts & Updates:** Automate your server’s maintenance and downtime.
+* **Crash Protection:** Optional monitoring and auto-restart if your server crashes.
+* **Logs & Backups:** Integrated log management and optional backups on restart.
+* **Account System:** Supports free and premium user accounts, with extra features for premium.
+* **User-Friendly UI:** Modern, dark-mode interface using CustomTkinter.
 
-Note: All server management happens on your computer. Licensing is hardware-bound for security.
+---
 
- ========================================================================================
+## How to Install
 
-How to use:
+1. **Download the latest release from the [Releases page](../../releases).**
+2. **Unzip and run `SteamCZT_WDS_Launcher.exe`.**
+3. **Register or log in within the app to start managing your servers.**
 
-SteamCZT - WDS (Windows Dedicated Server) Manager. 
-    
-~ Created By CaZual_T ...x_x
+> No Python or additional installs required.
 
-[First Time Use]
-    [Install Dependencies] Installs DirectX and Visual C++ redistributables. (if needed)
-    - Enter App ID (and save) You can click the ? for valid App IDs.
-    - [First Time Install] installs SteamCMD and selected "App ID" server files. 
-    - Wait for everything to install. (check log window)
-    - Start your server!  
-    
-   [Note:] Scroll to the bottom if your server failed to start due to an invalid steamcmd login.
-           
-[Main Controls]
-   [Main Buttons] (Start, Stop, Restart, Update)
-   - Start = Starts the server.
-   - Stop = Stops the server. 
-   - Manual Restart = Manually restart the server.
-   - Update Only = Closes Server (if running) then updates/verify server files.
-   [Note:] 'Stop' & 'Manual Restart' will create a backup of .db or save folder if [Auto Backup] if selected.
-               
-   [Scheduled Restarts]
-   - Here you can add and remove restart times by entering a time and clicking [+Add Time] (must use 24hr format ex. 23:59).
-   [DEL Schedule] button clears the cfg of ALL saved time.
-   [Show Current] button shows all of your active restart times. 
-   - Will create a .db or save backup if [Auto Backup] if selected.
-   - Will update/verify the current AppID selected if [Auto Update] if selected.
-                    
-[WDS Config]
-    - Set [Server Pathways] (option to open file locations as well)
-    - Set [Port Number] (more info below @ PORT_SETUP)
-    - Set [Max Players] overrides the max player option within serversetting.ini
-    - Set [App ID] this is what get put into SteamCMD when the server is updated.
-    - [Game Specific ARGS] These are presets of optional launch arguments for specific games.
-    - [Engine Specific ARGS] Universal arguments, check the selected apps dev server docs for more arguments info.      
-    - [Install Dependencies] Installs DX Runtime and Latest C++ redistributables from microsoft
-                    
-[Port Setup]
-    - Start server on specified port. Connection port will be port+2                     
-    - EXAMPLE: If port is set to 7000, then players would connect using Your.Server.I.P:7002
-        - Be sure to port forward BOTH ports on your network, and add them to your host machines firewall inbound rules. 
-            - 1:) Windows Defender Firewall > Advanced Settings > Inbound Rules (left side) > New Rule (right side) 
-                - Add a new rule with protocol UDP for 7000 (your server port)
-                - Add a new rule with protocol TCP for 7002 (client port 'server port+2')
-                - Add a new rule with protocol UDP for 27015 (steam query port)     
-            - 2:) Login to your router and port forward the same ports.
-                                  
-[SteamCMD Login]
-    - These credentials are saved locally (to your pc only) for use with SteamCMD command line.
-    - Some games dont accept "anonymous" and require an actual SteamCMD user.
-    - Click the question [?] mark next to "App ID" on the server config tab to check requirements.
-    
-   - YOU DO NOT NEED TO ENTER A USERNAME AND PASSWORD UNLESS YOUR GAMES SERVER REQUIRES IT.
-                    
+---
+
+## Supported Games / Engines
+
+* SCUM
+* Rust
+* Insurgency Sandstorm (ISS)
+* ARMA
+* Source Engine games (CS\:GO, Garry’s Mod, etc.)
+* Unreal Engine servers (ARK, Conan Exiles, etc.)
+* Unity-based servers
+  *...and more!*
+
+---
+
+## Premium Features
+
+* Scheduled restarts and updates
+* Crash protection
+* Extra automation and advanced controls
+
+---
+
+> **Note:** All server management happens on your computer. Licensing is hardware-bound for security.
+
+---
+
+## How to Use
+
+**SteamCZT - WDS (Windows Dedicated Server) Manager**
+\~ Created By CaZual\_T ...x\_x
+
+### First Time Use
+
+* **\[Install Dependencies]** Installs DirectX and Visual C++ redistributables if needed.
+* **Enter App ID (and save):** Click the `?` for valid App IDs.
+* **\[First Time Install]:** Installs SteamCMD and selected server files.
+* Wait for everything to install (watch the log window).
+* Start your server!
+
+> *Note:* If your server fails to start due to an invalid SteamCMD login, check the bottom of the log window.
+
+---
+
+### Main Controls
+
+* **Main Buttons (Start, Stop, Restart, Update):**
+
+  * **Start:** Starts the server.
+  * **Stop:** Stops the server.
+  * **Manual Restart:** Manually restart the server.
+  * **Update Only:** Closes server (if running) then updates/verifies server files.
+* *Note: 'Stop' & 'Manual Restart' will create a backup of the .db or save folder if \[Auto Backup] is enabled.*
+
+---
+
+### Scheduled Restarts
+
+* Add/remove restart times by entering a time (24hr format, e.g., 23:59) and clicking \[+Add Time].
+* `[DEL Schedule]` clears all saved times.
+* `[Show Current]` displays active restart times.
+* Will create backups if \[Auto Backup] is selected.
+* Will update/verify the current AppID if \[Auto Update] is enabled.
+
+---
+
+### WDS Config
+
+* Set **Server Paths** (with option to open file locations).
+* Set **Port Number** (see Port Setup below).
+* Set **Max Players** (overrides server config).
+* Set **App ID** (used by SteamCMD).
+* **Game Specific Args:** Presets for specific games.
+* **Engine Specific Args:** Universal arguments (see your game's server docs for more info).
+* **Install Dependencies:** Installs DX Runtime and latest C++ redistributables.
+
+---
+
+### Port Setup
+
+Start server on specified port. Connection port will be port+2.
+
+**Example:**
+If port is set to 7000, then players connect using `Your.Server.I.P:7002`.
+
+* Port forward **both** ports on your network and add them to your host machine's firewall:
+
+  1. **Windows Defender Firewall:**
+
+     * New rule (UDP 7000, TCP 7002, UDP 27015).
+  2. **Router:** Port forward the same ports.
+
+---
+
+### SteamCMD Login
+
+* Credentials are saved locally (your PC only) for use with SteamCMD.
+* Some games require a real SteamCMD user, others allow "anonymous."
+* Click `?` next to App ID in the server config tab for requirements.
+* **You do NOT need to enter a username/password unless your server requires it.**
+
+---
+
