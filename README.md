@@ -39,7 +39,7 @@ How to use:
 
 SteamCZT - WDS (Windows Dedicated Server) Manager. 
     
-    ~ Created By CaZual_T ...x_x
+   ~ Created By CaZual_T ...x_x
 
  ========================================================================================
  
@@ -50,24 +50,24 @@ SteamCZT - WDS (Windows Dedicated Server) Manager.
     → Wait for everything to install. (check log window)
     → Start your server!  
     
-    [Note:] Scroll to the bottom if your server failed to start due to an invalid steamcmd login.
+   [Note:] Scroll to the bottom if your server failed to start due to an invalid steamcmd login.
 
  ========================================================================================
                     
 [Main Controls]
-    [Main Buttons] (Start, Stop, Restart, Update)
-        → Start = Starts the server.
-        → Stop = Stops the server. 
-        → Manual Restart = Manually restart the server.
-        → Update Only = Closes Server (if running) then updates/verify server files.
-    [Note:] 'Stop' & 'Manual Restart' will create a backup of .db or save folder if [Auto Backup] if selected.
-                
-    [Scheduled Restarts]
-    Here you can add and remove restart times by entering a time and clicking [+Add Time] (must use 24hr format ex. 23:59).
-        [DEL Schedule] button clears the cfg of ALL saved time.
-            [Show Current] button shows all of your active restart times. 
-    → Will create a .db or save backup if [Auto Backup] if selected.
-    → Will update/verify the current AppID selected if [Auto Update] if selected.
+   [Main Buttons] (Start, Stop, Restart, Update)
+       → Start = Starts the server.
+       → Stop = Stops the server. 
+       → Manual Restart = Manually restart the server.
+       → Update Only = Closes Server (if running) then updates/verify server files.
+   [Note:] 'Stop' & 'Manual Restart' will create a backup of .db or save folder if [Auto Backup] if selected.
+               
+   [Scheduled Restarts]
+   Here you can add and remove restart times by entering a time and clicking [+Add Time] (must use 24hr format ex. 23:59).
+       [DEL Schedule] button clears the cfg of ALL saved time.
+           [Show Current] button shows all of your active restart times. 
+   → Will create a .db or save backup if [Auto Backup] if selected.
+   → Will update/verify the current AppID selected if [Auto Update] if selected.
 
  ========================================================================================
                     
@@ -95,10 +95,11 @@ SteamCZT - WDS (Windows Dedicated Server) Manager.
  ========================================================================================
                     
   [SteamCMD Login]
-      → These credentials are saved locally (to your pc only) for use with SteamCMD command line.
-      → Some games dont accept "anonymous" and require an actual SteamCMD user.
-      → Click the question [?] mark next to "App ID" on the server config tab to check requirements.
-      
-      → YOU DO NOT NEED TO ENTER A USERNAME AND PASSWORD UNLESS YOUR GAMES SERVER REQUIRES IT.
+   → These credentials are saved locally (to your pc only) for use with SteamCMD command line.
+   → Some games dont accept "anonymous" and require an actual SteamCMD user.
+   → Click the question [?] mark next to "App ID" on the server config tab to check requirements.
+ 
+   → YOU DO NOT NEED TO ENTER A USERNAME AND PASSWORD UNLESS YOUR GAMES SERVER REQUIRES IT.
                     
  ========================================================================================
+
