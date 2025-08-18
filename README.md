@@ -45,7 +45,7 @@
 
 ---
 
-> **Note:** All server management happens on your computer. Licensing is hardware-bound for security.
+> **Note:** All server management happens on your computer. Licensing is hardware-bound.
 
 ---
 
@@ -124,6 +124,7 @@ If port is set to 7000, then players connect using `Your.Server.I.P:7002`.
 * **You do NOT need to enter a username/password unless your server requires it.**
 
 ---
+
 
 
 
