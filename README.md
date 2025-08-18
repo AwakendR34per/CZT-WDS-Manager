@@ -4,8 +4,7 @@
 
 ---
 
-## Key Features
-
+### Key Features
 * **Easy Server Management:** Start, stop, update, and configure servers for many popular games with just a few clicks.
 * **SteamCMD Integration:** Built-in SteamCMD handling for seamless server downloads and updates.
 * **Scheduled Restarts & Updates:** Automate your server’s maintenance and downtime.
@@ -16,8 +15,7 @@
 
 ---
 
-## How to Install
-
+### How to Install
 1. **Download the latest release from the [Releases page](../../releases).**
 2. **Run `CZT-WDS_Launcher_Setup.exe`.**
 3. **Launch the app from your desktop or Start Menu shortcut. (Run as Admin)**
@@ -29,8 +27,7 @@
 
 ---
 
-## Supported Games / Engines
-
+### Supported Games / Engines
 * SCUM
 * Rust
 * Insurgency Sandstorm (ISS)
@@ -42,11 +39,9 @@
 
 ---
 
-## Premium Features
-
-* Scheduled restarts and updates
+### Subscriber Features
+* Unlimited Scheduled Restarts (Free limited to 1)
 * Crash protection
-* Extra automation and advanced controls
 
 ---
 
@@ -60,7 +55,6 @@
 \~ Created By CaZual\_T ...x\_x
 
 ### First Time Use
-
 * **Go to the WDS Config tab**
 * **Click \[Install Dependencies]** Installs DirectX and Visual C++ redistributables if needed.
 * **Enter App ID (and save):** Click the `?` for valid App IDs.
@@ -130,6 +124,7 @@ If port is set to 7000, then players connect using `Your.Server.I.P:7002`.
 * **You do NOT need to enter a username/password unless your server requires it.**
 
 ---
+
 
 
 
