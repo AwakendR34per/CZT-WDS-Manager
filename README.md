@@ -6,12 +6,11 @@
 
 ### Key Features
 * **Easy Server Management:** Start, stop, update, and configure servers for many popular games with just a few clicks.
-* **SteamCMD Integration:** Built-in SteamCMD handling for seamless server downloads and updates.
 * **Scheduled Restarts & Updates:** Automate your server’s maintenance and downtime.
 * **Crash Protection:** Optional monitoring and auto-restart if your server crashes.
 * **Logs & Backups:** Integrated log management and optional backups on restart.
-* **Account System:** Supports free and premium user accounts, with extra features for premium.
-* **User-Friendly UI:** Modern, dark-mode interface using CustomTkinter.
+* **User-Friendly UI:** Modern-ish, dark-mode interface using CustomTkinter.
+* **Telemetry Window:** CPU/RAM/Network Bandwidth Usage
 
 ---
 
@@ -124,6 +123,7 @@ If port is set to 7000, then players connect using `Your.Server.I.P:7002`.
 * **You do NOT need to enter a username/password unless your server requires it.**
 
 ---
+
 
 
 
