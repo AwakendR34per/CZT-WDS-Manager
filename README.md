@@ -61,8 +61,8 @@
 * Wait for everything to install (watch the log window).
 * Start your server!
 > [!NOTE]
-> If you had a server previously installed just copy the saved folder over to the new install to transfer your player/world saves/db and server settings.
-> *Note:* If your server fails to start due to an invalid SteamCMD login, check the bottom of the log window.
+> - If you had a server previously installed just copy the saved folder over to the new install to transfer your player/world saves/db and server settings.<br>
+> - If your server fails to start due to an invalid SteamCMD login, check the bottom of the log window.
 
 ---
 
@@ -124,6 +124,7 @@ If port is set to 7000, then players connect using `Your.Server.I.P:7002`.
 * **You do NOT need to enter a username/password unless your server requires it.**
 
 ---
+
 
 
 
