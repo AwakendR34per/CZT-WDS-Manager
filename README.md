@@ -41,6 +41,7 @@
 ### Subscriber Features
 * Unlimited Scheduled Restarts (Free limited to 1)
 * Crash protection (Auto Restart* on crash)
+* Subscriber features require an ACTIVE subscription. Access is lost at time of cancellation. 
 
 ---
 
@@ -124,6 +125,7 @@ If port is set to 7000, then players connect using `Your.Server.I.P:7002`.
 * **You do NOT need to enter a username/password unless your server requires it.**
 
 ---
+
 
 
 
